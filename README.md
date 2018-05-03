@@ -1,0 +1,1 @@
+cdshooks_core
