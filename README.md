@@ -37,5 +37,7 @@ This project:
 * Download release and unzip to project directory, or git clone <project url>; cd into project directory
 * Run:
 
+```
     python setup.py build
     sudo python setup.py install
+```
