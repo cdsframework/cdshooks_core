@@ -5,14 +5,14 @@ __copyright__ = "Copyright 2018, HLN Consulting, LLC"
 
 
 class Card:
-    def __init__(self, summary, indicator, source, detail=None, suggestions=[], links=[]):
+    def __init__(self, summary, indicator, source, detail=None):
         # TODO: add check that parameters are the proper class type
         self.summary = summary
         self.indicator = indicator
         self.source = source
         self.detail = detail
-        self.links = links
-        self.suggestions = suggestions
+        self.links = []
+        self.suggestions = []
 
     def get_card(self):
         output = dict(
@@ -38,4 +38,5 @@ class Card:
 
     def add_link(self, link):
         # TODO: add check that link is the proper class type
+        print(self.links)
         self.links.append(link)

@@ -5,11 +5,11 @@ __copyright__ = "Copyright 2018, HLN Consulting, LLC"
 
 
 class Suggestion:
-    def __init__(self, label, uuid=None, actions=[]):
+    def __init__(self, label, uuid=None):
         # TODO: add check that parameters are the proper class type
         self.label = label
         self.uuid = uuid
-        self.actions = actions
+        self.actions = []
 
     def get_suggestion(self):
         output = dict(
