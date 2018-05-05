@@ -38,5 +38,4 @@ class Card:
 
     def add_link(self, link):
         # TODO: add check that link is the proper class type
-        print(self.links)
         self.links.append(link)
