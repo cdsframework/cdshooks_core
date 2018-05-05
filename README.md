@@ -12,11 +12,6 @@ Implements all related CDS Hooks Card classes.
 LICENSE
 =======
 
-License TBD.
-
-.. code-block::
-
-
     The MIT License
 
     Copyright (c) 2016 Matt Berther, https://matt.berther.io
@@ -42,6 +37,5 @@ This project:
 * Download release and unzip to project directory, or git clone <project url>; cd into project directory
 * Run:
 
-.. code-block::
     python setup.py build
     sudo python setup.py install
